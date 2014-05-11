@@ -1,0 +1,6 @@
+{
+  "runner": "jasmine",
+  "sources": ["core.js", { "directory": "src" }],
+  "specs": [{ "directory": "spec" }],
+  "tree": "master"
+}
