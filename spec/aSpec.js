@@ -1,5 +1,6 @@
 describe("a", function() {
   it("should be ok", function() {
-    expect(a).toBeTruthy();
+    expect(window.a).toBeTruthy();
+    expect(window.core).toBeTruthy();
   });
 });
